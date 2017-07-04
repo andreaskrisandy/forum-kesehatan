@@ -17,7 +17,7 @@
 <body style="background-image: url('images/background.jpg');background-repeat:no-repeat">
 	<!-- Navigation -->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
+		<div class="container" style="height:70px;">
 
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header page-scroll">
@@ -30,7 +30,7 @@
 				<a class="navbar-brand page-scroll" href="home.php"></a>
 			</div>
 			<div class="navbar-header">
-				<a class="navbar-brand" href="home.php">FORUM KESEHATAN</a>
+				<img src="images/logoforum.png" style="width:198px;height:75px;margin-bottom:5px;margin-top:5px;"/>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
