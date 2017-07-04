@@ -14,7 +14,7 @@
 	<script src="js/bootstrap.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-image: url('images/background.jpg');background-repeat:no-repeat">
 	<!-- Navigation -->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
@@ -55,19 +55,20 @@
 <!-- /.container-fluid -->
 </nav>
 <div class="container" style="margin:8% auto;">
-	<div class="col-sm-4 col-md-3">
-		<h2>Forum Dinas Kesehatan Kota Bandung</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		<div class="col-sm-4 col-md-3">
+		<h2 style="width:600px;color:white;">Forum Dinas Kesehatan Kota Bandung</h2>
+		<p style="width:500px;color:white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
 		</div>
 		<div class="col-sm-5 col-md-4 pull-right">
 			<div class="row">
 				<form method="POST" class="form-signin" action="functions/register.php">
-					<h3 class="text-center">Daftar Disini!</h3>
+					<h3 class="text-center" style="color:white;">Daftar Disini!</h3>
 					<br>
 					<input type="text" name="fname"placeholder="Nama Depan"class="form-control" required>
 					<br>
@@ -88,16 +89,16 @@
 			</div>
 		</div>
 	</div>
-	<hr>
+	<!-- <hr> -->
 	<!-- <div class="footer">
-		<nav align="center">
-			<ul class="nav navbar-nav">
-				<li><a href="">About</a></li>
-				<li><a href="">Developers</a></li>
-				<li><a href="">Terms and Conditions</a></li>
-			</ul>
-		</nav>
-	</div> -->
+	<nav align="center">
+	<ul class="nav navbar-nav">
+	<li><a href="">About</a></li>
+	<li><a href="">Developers</a></li>
+	<li><a href="">Terms and Conditions</a></li>
+</ul>
+</nav>
+</div> -->
 
 </body>
 </html>

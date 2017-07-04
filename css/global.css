@@ -1,12 +1,17 @@
 body{
 	background-color: #eee;
 }
+
+.indexbg{
+	background-image: url('images/background.jpg');
+}
+
 .footer {
     position: relative;
     height: 70px;
     bottom: 0;
     width: 100%;
-    
+
     padding: 2%;
 }
 .form-signin
@@ -75,7 +80,7 @@ body{
                 background: #fff;
                 padding: 10px;
             }
-           
+
             #quest:target
             {
                 opacity: 1;
