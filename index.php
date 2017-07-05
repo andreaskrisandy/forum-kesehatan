@@ -17,7 +17,7 @@
 <body style="background-image: url('images/background.jpg');background-repeat:no-repeat">
 	<!-- Navigation -->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container" style="height:70px;">
+		<div class="container">
 
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header page-scroll">
@@ -27,10 +27,10 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand page-scroll" href="home.php"></a>
+				<!-- <a class="navbar-brand page-scroll" href="index.php"></a> -->
 			</div>
 			<div class="navbar-header">
-				<img src="images/logoforum.png" style="width:198px;height:75px;margin-bottom:5px;margin-top:5px;"/>
+				<a href="index.php"><img class="img-responsive" src="images/logoforum.png" style="margin-bottom:5px;margin-top:5px;height:75px;"/></a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
