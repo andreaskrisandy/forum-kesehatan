@@ -19,8 +19,8 @@ $userid = $_SESSION['user_Id'];
   <!--Bootstrap CSS-->
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
   <!--Script-->
   <script src="../js/jquery.js"></script>
   <script src="../js/jquery.min.js"></script>
@@ -33,8 +33,8 @@ $userid = $_SESSION['user_Id'];
     <div class="container">
 
       <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <div class="navbar-header page-scroll" style="float:right;">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-content">
           <span class="sr-only">Test Data navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -43,16 +43,19 @@ $userid = $_SESSION['user_Id'];
         <a class="navbar-brand page-scroll" href="home.php"></a>
       </div>
       <div class="navbar-header">
-        <a class="navbar-brand" href="home.php">Forum Kesehatan Kota Bandung</a>
+        <a href="home.php">
+          <img id="logoforum" class="img-responsive" src="../images/logoforum.png" style="text-align:center;margin-bottom:5px;margin-top:5px;height:70px;"/>
+        </a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse" id="menu-content">
 
-        <ul class="nav navbar-nav navbar-left">
+        <!-- <ul class="nav navbar-nav navbar-left">
           <li><a href="#quest">Buat Post Baru!</a></li>
-        </ul>
+        </ul> -->
 
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right" >
+          <li><a href="#quest">Buat Post Baru!</a></li>
           <li><a href="#" ><span class="glyphicon glyphicon-user"></span> <?php echo $username;?></a></li>
           <li ><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
         </ul>
@@ -61,7 +64,7 @@ $userid = $_SESSION['user_Id'];
     </div>
     <!-- /.container-fluid -->
   </nav>
-  <div class="container" style="margin:7% auto;">
+  <div id="content" class="container">
     <h4>Diskusi Terbaru</h4>
     <hr>
     <?php  include "../functions/db.php";
