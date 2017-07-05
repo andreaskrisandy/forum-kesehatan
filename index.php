@@ -21,7 +21,7 @@
 		<div class="container">
 
 			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header page-scroll">
+			<div class="navbar-header page-scroll" style="float:right;">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
@@ -31,7 +31,7 @@
 				<a class="navbar-brand page-scroll" href="index.php"></a>
 			</div>
 			<div class="navbar-header">
-				<a href="index.php"><img class="img-responsive" src="images/logoforum.png" style="margin-bottom:5px;margin-top:5px;height:75px;"/></a>
+				<a href="index.php"><img id="logoforum"class="img-responsive" src="images/logoforum.png" style="margin-bottom:5px;margin-top:5px;height:75px;"/></a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

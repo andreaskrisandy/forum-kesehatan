@@ -2,12 +2,30 @@
 	color:white;
 }
 
+.containerStyle{
+	padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*style untuk layar kecil*/
 @media (max-width: 768px) {
   #header{
     margin-top: 150px;
   }
+	#logoforum{
+		margin: 0 auto;
+	}
+	#content{
+		margin: 40% auto !important;
+	}
+	#hide{
+		visibility: visible;
+	}
 }
 
+/*style untuk layar besar*/
 @media (min-width: 768px) {
   .text-white{
 		margin-top: 100px;
@@ -16,5 +34,9 @@
 
 	#loginform{
 		margin-top:25px;
+	}
+
+	#content{
+		margin: 7% auto !important;
 	}
 }
