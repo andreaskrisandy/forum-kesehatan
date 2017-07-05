@@ -27,10 +27,10 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand page-scroll" href="home.php"></a>
+				<!-- <a class="navbar-brand page-scroll" href="index.php"></a> -->
 			</div>
 			<div class="navbar-header">
-				<a class="navbar-brand" href="home.php">FORUM KESEHATAN</a>
+				<a href="index.php"><img class="img-responsive" src="images/logoforum.png" style="margin-bottom:5px;margin-top:5px;height:75px;"/></a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
