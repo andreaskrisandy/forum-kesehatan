@@ -66,7 +66,7 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 	</div>
-	<div class="col-sm-5 col-md-4 pull-right">
+	<div id="signupform" class="col-sm-5 col-md-4">
 		<div class="row">
 			<form method="POST" class="form-signin" action="functions/register.php">
 				<h3 class="text-center" style="color:white;">Daftar Disini!</h3>

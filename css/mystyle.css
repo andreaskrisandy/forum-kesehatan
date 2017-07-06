@@ -39,4 +39,8 @@
 	#content{
 		margin: 7% auto !important;
 	}
+
+	#signupform{
+		float: right !important;
+	}
 }
