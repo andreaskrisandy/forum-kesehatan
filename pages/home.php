@@ -69,7 +69,7 @@ $userid = $_SESSION['user_Id'];
     <hr>
     <?php  include "../functions/db.php";
 
-    $sel = mysql_query("SELECT * from category");
+    $sel = mysql_query("SELECT * from category order by cat_id DESC");
     while($row=mysql_fetch_assoc($sel)){
       extract($row);
       echo '<div class="panel panel-success">
@@ -83,7 +83,7 @@ $userid = $_SESSION['user_Id'];
       <th>Kategori</th>
       <th>Aksi</th>
       </tr>';
-      $sel1 = mysql_query("SELECT * from tblpost where cat_id='$cat_id' ");
+      $sel1 = mysql_query("SELECT * from tblpost where cat_id='$cat_id' order by post_id DESC");
       while($row1=mysql_fetch_assoc($sel1)){
         extract($row1);
         echo '<tr>';
