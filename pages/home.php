@@ -44,7 +44,7 @@ $userid = $_SESSION['user_Id'];
       </div>
       <div class="navbar-header">
         <a href="home.php">
-          <img id="logoforum" class="img-responsive" src="../images/logoforum.png" style="text-align:center;margin-bottom:5px;margin-top:5px;height:70px;"/>
+          <img id="logoforum" class="img-responsive" src="../images/logoforum.png" style="text-align:center;margin-bottom:5px;margin-top:5px;height:50px;"/>
         </a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->

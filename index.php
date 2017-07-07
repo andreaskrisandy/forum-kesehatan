@@ -31,7 +31,7 @@
 				<a class="navbar-brand page-scroll" href="index.php"></a>
 			</div>
 			<div class="navbar-header">
-				<a href="index.php"><img id="logoforum"class="img-responsive" src="images/logoforum.png" style="margin-bottom:5px;margin-top:5px;height:75px;"/></a>
+				<a href="index.php"><img id="logoforum"class="img-responsive" src="images/logoforum.png" style="margin-bottom:5px;margin-top:5px;height:50px;"/></a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -56,14 +56,9 @@
 <!-- /.container-fluid -->
 </nav>
 <div class="container" style="margin:8% auto;">
-	<div class="col-sm-4 col-md-3">
-		<h2 class="text-white" id="header">Forum Dinas Kesehatan Kota Bandung</h2>
-		<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<div id="headercontainer" class="col-sm-4 col-md-3">
+		<h2 class="text-white" id="header">Silaturahim Pejuang Kesehatan</h2>
+		<p class="text-white" id="contentheader">Kalau bukan sekarang kapanlagi.<br>Kalau bukan kita kapanlagi.<br>Indahnya kebersamaan <br>sehat dari kita untuk Bandung.
 		</p>
 	</div>
 	<div id="signupform" class="col-sm-5 col-md-4">
