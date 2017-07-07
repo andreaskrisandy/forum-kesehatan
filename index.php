@@ -58,8 +58,8 @@
 <div class="container" style="margin:8% auto;">
 	<div id="headercontainer" class="col-sm-4 col-md-3">
 		<h2 class="text-white" id="header">Silaturahim Pejuang Kesehatan</h2>
-		<p class="text-white" id="contentheader">Kalau bukan sekarang kapanlagi.<br>Kalau bukan kita kapanlagi.<br>Indahnya kebersamaan <br>sehat dari kita untuk Bandung.
-		</p>
+		<!-- <p class="text-white" id="contentheader">Kalau bukan sekarang kapanlagi.<br>Kalau bukan kita kapanlagi.<br>Indahnya kebersamaan <br>sehat dari kita untuk Bandung.
+		</p> -->
 	</div>
 	<div id="signupform" class="col-sm-5 col-md-4">
 		<div class="row">
