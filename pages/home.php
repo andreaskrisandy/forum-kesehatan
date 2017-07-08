@@ -51,7 +51,7 @@ $userid = $_SESSION['user_Id'];
           <li><a href="#quest">Buat Post Baru!</a></li>
         </ul> -->
 
-        <ul class="nav navbar-nav" >
+        <ul class="nav navbar-nav navbar-right" >
           <li><a href="#quest">Buat Post Baru!</a></li>
           <li><a href="#" ><span class="glyphicon glyphicon-user"></span> <?php echo $username;?></a></li>
           <li ><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
