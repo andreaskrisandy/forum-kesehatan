@@ -139,7 +139,7 @@ $userid = $_SESSION['user_Id'];
       <input type="hidden" id="postid" value="<?php echo $_GET['post_id']; ?>">
       <input type="hidden" id="userid" value="<?php echo $_SESSION['user_Id']; ?>">
       <input type="submit" id="save" class="btn btn-success pull-right" value="Simpan">
-      <a href="javascript:history.go(-1)"><button class="btn btn-success pull-left">Kembali</button></a>
+      <a href="home.php">Kembali</a>
     </form>
   </div>
 </div>
