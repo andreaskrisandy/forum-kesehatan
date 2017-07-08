@@ -12,25 +12,22 @@ $userid = $_SESSION['user_Id'];
 ?>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
 
   <!--Custom CSS-->
   <link rel="stylesheet" type="text/css" href="../css/global.css">
   <!--Bootstrap CSS-->
-  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
   <!--Script-->
-  <script src="../js/jquery.js"></script>
-  <script src="../js/jquery.min.js"></script>
-  <script src="../js/bootstrap.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
+
 </head>
 <body>
   <!-- Navigation -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
+    <div class="container-fluid">
 
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header page-scroll" style="float:right;">
@@ -54,7 +51,7 @@ $userid = $_SESSION['user_Id'];
           <li><a href="#quest">Buat Post Baru!</a></li>
         </ul> -->
 
-        <ul class="nav navbar-nav navbar-right" >
+        <ul class="nav navbar-nav" >
           <li><a href="#quest">Buat Post Baru!</a></li>
           <li><a href="#" ><span class="glyphicon glyphicon-user"></span> <?php echo $username;?></a></li>
           <li ><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
@@ -131,5 +128,9 @@ $userid = $_SESSION['user_Id'];
         <a href="" class="pull-right">Close</a>
       </div>
     </div>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
   </html>
