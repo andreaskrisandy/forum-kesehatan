@@ -12,6 +12,7 @@ $userid = $_SESSION['user_Id'];
 ?>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
 
   <!--Custom CSS-->
@@ -23,8 +24,8 @@ $userid = $_SESSION['user_Id'];
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <!--Script-->
   <script src="../js/jquery.js"></script>
-  <script src="../js/jquery.min.js"></script>
-  <script src="../js/bootstrap.js"></script>
+  <!-- <script src="../js/jquery.min.js"></script> -->
+  <!-- <script src="../js/bootstrap.js"></script> -->
   <script src="../js/bootstrap.min.js"></script>
 
 </head>
@@ -138,7 +139,7 @@ $userid = $_SESSION['user_Id'];
       <input type="hidden" id="postid" value="<?php echo $_GET['post_id']; ?>">
       <input type="hidden" id="userid" value="<?php echo $_SESSION['user_Id']; ?>">
       <input type="submit" id="save" class="btn btn-success pull-right" value="Simpan">
-      <a href="javascript:history.go(-1)"><button class="btn btn-success pull-left">Kembali</button></a>
+      <a href="home.php">Kembali</a>
     </form>
   </div>
 </div>
