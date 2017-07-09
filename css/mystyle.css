@@ -37,18 +37,11 @@
 
 /*style untuk layar besar*/
 @media (min-width: 768px) {
-  .text-white{
-		/*margin-top: 100px;*/
-  }
 
 	#header{
     margin-top: 150px;
 		width: 450px;
   }
-
-	#contentheader{
-		margin-top: 50px;
-	}
 
 	#loginform{
 		margin-top:13px;
