@@ -13,6 +13,7 @@ $userid = $_SESSION['user_Id'];
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="30">
   <title></title>
 
   <!--Custom CSS-->
