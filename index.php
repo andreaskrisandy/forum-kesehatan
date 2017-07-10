@@ -1,23 +1,25 @@
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel=icon href="images/favicon.png">
 	<title></title>
-
 	<!--Custom CSS-->
-	<link rel="stylesheet" type="text/css" href="css/global.css"><!-- ????-->
+	<link rel="stylesheet" type="text/css" href="css/global.css">
 	<!--Bootstrap CSS-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 	<!--Script-->
-
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!--Favicon-->
 </head>
-<body style="background-image: url('images/background.png');background-repeat:no-repeat;background-size:cover;">
+<body style="background-image: url('images/background.jpg');background-repeat:no-repeat">
 	<!-- Navigation -->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">
+		<div class="container">
 
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header page-scroll" style="float:right;">
@@ -30,9 +32,7 @@
 				<a class="navbar-brand page-scroll" href="index.php"></a>
 			</div>
 			<div class="navbar-header">
-				<a href="index.php">
-					<img id="logoforum"class="img-responsive" src="images/logoforum.png" style="margin-bottom:5px;margin-top:5px;height:50px;"/>
-				</a>
+				<a href="index.php"><img id="logoforum"class="img-responsive" src="images/logoforum.png" style="margin-bottom:5px;margin-top:5px;height:50px;"/></a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -41,15 +41,15 @@
 				<li><a href=""><span class="glyphicon glyphicon-list"></span> Topics</a></li>
 			</ul>
 		-->
-
-			<form id="loginform" class="navbar-form navbar-right" method="POST" role="search" action="pages/login.php">
+		<div>
+			<form id="loginform" class="navbar-form navbar-right" method="POST"role="search" action="pages/login.php">
 				<div class="form-group">
 					<input type="text" class="form-control" name="username"placeholder="Username">
 					<input type="password" class="form-control" name="password"placeholder="Password">
 				</div>
 				<button type="submit" class="btn btn-success">Login</button>
 			</form>
-
+		</div>
 
 	</div>
 	<!-- /.navbar-collapse -->
@@ -57,41 +57,34 @@
 <!-- /.container-fluid -->
 </nav>
 <div class="container" style="margin:8% auto;">
-	<div class="row">
-	<div id="headercontainer" class="col-md-6">
-		<h2 class="text-white" id="header">Silaturahim Pejuang Kesehatan</h2>
+	<div id="headercontainer" class="col-sm-4 col-md-3">
+		<h2 class="text-white" id="header">skdgdksfjg</h2>
 		<!-- <p class="text-white" id="contentheader">Kalau bukan sekarang kapanlagi.<br>Kalau bukan kita kapanlagi.<br>Indahnya kebersamaan <br>sehat dari kita untuk Bandung.
 		</p> -->
 	</div>
-
-	<div id="signupform" class="col-md-6">
-
-
-		<form method="POST" class="form-signin" action="functions/register.php">
-			<h3 class="text-center" style="color:white;">Daftar Disini!</h3>
-			<br>
-			<div class="form-group">
+	<div id="signupform" class="col-sm-5 col-md-4">
+		<div class="row">
+			<form method="POST" class="form-signin" action="functions/register.php">
+				<h3 class="text-center" style="color:white;">Daftar Disini!</h3>
+				<br>
 				<input type="text" name="fname"placeholder="Nama Depan"class="form-control" required>
-			</div>
-			<div class="form-group">
-				<input type="text" name="lname"placeholder="Nama Belakang"class="form-control" required>  </div>
-				<div class="form-group">
-					<select class="form-control" name="gender"required>
-						<option value="" disabled selected>Jenis Kelamin</option>
-						<option value="Male">Pria</option>
-						<option value="Female">Wanita</option>
-					</select>
-				</div>
-				<div class="form-group">
-					<input type="text" placeholder="Username" name="username"class="form-control" required>
-				</div>
-				<div class="form-group">
-					<input type="password" placeholder="Password" name="password" class="form-control" required>
-				</div>
+				<br>
+				<input type="text" name="lname"placeholder="Nama Belakang"class="form-control" required>
+				<br>
+				<select class="form-control" name="gender"required>
+					<option value="" disabled selected>Jenis Kelamin</option>
+					<option value="Male">Laki - Laki</option>
+					<option value="Female">Perempuan</option>
+				</select>
+				<br>
+				<input type="text" placeholder="Username" name="username"class="form-control" required>
+				<br>
+				<input type="password" placeholder="Password" name="password" class="form-control" required>
+				<br>
 				<input type="submit" value="Daftar" class="btn btn-success" style="width:100%;">
 			</form>
 		</div>
-</div>
+	</div>
 </div>
 <!-- <hr> -->
 <!-- <div class="footer">
@@ -103,7 +96,6 @@
 </ul>
 </nav>
 </div> -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
 </body>
-</html>
+</html> -->
