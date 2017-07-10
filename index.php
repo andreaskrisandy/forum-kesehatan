@@ -1,6 +1,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel=icon href="images/favicon.png">
 	<title></title>
 
 	<!--Custom CSS-->
@@ -77,8 +78,8 @@
 				<div class="form-group">
 					<select class="form-control" name="gender"required>
 						<option value="" disabled selected>Jenis Kelamin</option>
-						<option value="Male">Male</option>
-						<option value="Female">Female</option>
+						<option value="Male">Pria</option>
+						<option value="Female">Wanita</option>
 					</select>
 				</div>
 				<div class="form-group">
